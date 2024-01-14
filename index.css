@@ -7,9 +7,11 @@ body {
 }
 
 .container {
-    background: rgba(0,0,0,0.5);
-    max-width: 80%;
-    margin: auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 40%;
+    margin: 200px auto;
     border: 3px solid yellowgreen;
     border-radius: 10px;
 }
@@ -27,8 +29,8 @@ h2 {
 
 button {
     border: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     color: white;
     font-weight: bold;
     width: 200px;
@@ -44,7 +46,13 @@ button {
     background: #1C7947;
 }
 
-#save-el {
-    font-weight: bold;
+/* #btn-group {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+align-items: center;
 }
 
+*/ #save-el {
+    font-weight: bold;
+}
